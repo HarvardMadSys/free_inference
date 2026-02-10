@@ -17,7 +17,7 @@ Learn how to configure FreeInference with popular coding agents and IDEs.
 ```toml
 # ~/.codex/config.toml
 
-model = "glm-4.6"
+model = "glm-4.7"
 
 model_provider = "free_inference"
 model_reasoning_effort = "high"
@@ -103,7 +103,7 @@ source ~/.bashrc
    API Key: your-api-key-here
    ```
 
-5. Select your preferred model (e.g., `glm-4.6`, `llama-3.3-70b-instruct`, etc.)
+5. Select your preferred model (e.g., `glm-4.7`, `glm-4.7-flash`, `llama-3.3-70b-instruct`, etc.)
 
 6. Save settings and start using with FreeInference!
 
@@ -126,7 +126,7 @@ If you get "model not found" errors:
 
 - Check the [available models](models.md) list
 - Ensure the model name is exactly as listed (case-sensitive)
-- Try switching to a different model like `glm-4.6` or `llama-3.3-70b-instruct`
+- Try switching to a different model like `glm-4.7` or `glm-4.7-flash`
 
 ### Codex-Specific Issues
 

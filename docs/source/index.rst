@@ -29,7 +29,7 @@ Key Features
    Free inference for coding agents and development tools
 
 **Multiple Models**
-   Access Qwen, GLM, DeepSeek, and other powerful models
+   Access GLM, Qwen, MiniMax, Llama, and other powerful models
 
 **IDE Integration**
    Easy setup with Cursor, Codex, Roo Code, Kilo Code, and more
@@ -61,24 +61,24 @@ Available Models
    * - Model
      - Context Length
      - Best For
-   * - GLM-4.6
+   * - GLM-4.7
      - 200K tokens
      - Long context, bilingual
+   * - GLM-4.7-Flash
+     - 200K tokens
+     - Fast and cost-effective
    * - MiniMax M2
      - 196K tokens
      - Very large codebases
-   * - Llama 3.3 70B
-     - 131K tokens
-     - General coding tasks
-   * - Llama 4 Maverick
-     - 128K tokens
-     - Multimodal support
-   * - DeepSeek R1
-     - 64K tokens
-     - Complex reasoning
    * - Qwen3 Coder 30B
      - 32K tokens
      - Code generation
+   * - Llama 3.3 70B :sup:`limited`
+     - 131K tokens
+     - General coding tasks
+   * - Llama 4 Maverick :sup:`limited`
+     - 128K tokens
+     - Multimodal support
 
 See the complete :doc:`models` list for all available models.
 

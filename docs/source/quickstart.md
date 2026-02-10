@@ -23,7 +23,7 @@ Get started with FreeInference in 5 minutes.
 
 1. Create `~/.codex/config.toml`:
    ```toml
-   model = "glm-4.6"
+   model = "glm-4.7"
    model_provider = "free_inference"
    
    [model_providers.free_inference]

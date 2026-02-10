@@ -34,7 +34,7 @@ Visit our documentation at: https://harvardsys.github.io/free_inference/
 1. Create `~/.codex/config.toml`:
 
 ```toml
-model = "glm-4.6"
+model = "glm-4.7"
 model_provider = "free_inference"
 
 [model_providers.free_inference]
@@ -65,14 +65,13 @@ export FREEINFERENCE_API_KEY="Bearer your-api-key-here"
 
 ## Available Models
 
-- **GLM-4.6** - 200K context, best for long context and bilingual support
+- **GLM-4.7** - 200K context, best for long context and bilingual support
+- **GLM-4.7-Flash** - 200K context, fast and cost-effective
 - **MiniMax M2** - 196K context, best for very large codebases
-- **Llama 3.3 70B** - 131K context, excellent for general coding
-- **Llama 4 Scout** - 128K context, optimized for speed
-- **Llama 4 Maverick** - 128K context, multimodal support
-- **DeepSeek R1** - 64K context, advanced reasoning
 - **Qwen3 Coder 30B** - 32K context, specialized for code generation
-- **GLM-4.5 / GLM-4.5-Air** - Bilingual Chinese/English support
+- **Llama 3.3 70B** - 131K context, general coding (limited capacity)
+- **Llama 4 Scout** - 128K context, optimized for speed (limited capacity)
+- **Llama 4 Maverick** - 128K context, multimodal support (limited capacity)
 
 See the [Models documentation](https://harvardsys.github.io/free_inference/models.html) for the complete list.
 
