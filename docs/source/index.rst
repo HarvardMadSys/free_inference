@@ -61,15 +61,21 @@ Available Models
    * - Model
      - Context Length
      - Best For
+   * - **GLM-5** :sup:`recommended`
+     - 200K tokens
+     - Most capable, bilingual
    * - GLM-4.7
      - 200K tokens
      - Long context, bilingual
    * - GLM-4.7-Flash
      - 200K tokens
      - Fast and cost-effective
+   * - **MiniMax M2.5** :sup:`new`
+     - 1M tokens
+     - Ultra-long context, multimodal
    * - MiniMax M2
      - 196K tokens
-     - Very large codebases
+     - Large codebases
    * - Qwen3 Coder 30B
      - 32K tokens
      - Code generation
